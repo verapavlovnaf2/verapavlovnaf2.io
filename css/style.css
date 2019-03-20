@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,cyrillic-ext');
+/*Basic colors*/
+/*Fonts*/
+/*@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-LightItalic.eot');
+    src: url('../fonts/Ubuntu-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-LightItalic.woff2') format('woff2'),
+        url('../fonts/Ubuntu-LightItalic.woff') format('woff'),
+        url('../fonts/Ubuntu-LightItalic.ttf') format('truetype'),
+        url('../fonts/Ubuntu-LightItalic.svg#Ubuntu-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Medium.eot');
+    src: url('../fonts/Ubuntu-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Medium.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Medium.woff') format('woff'),
+        url('../fonts/Ubuntu-Medium.ttf') format('truetype'),
+        url('../fonts/Ubuntu-Medium.svg#Ubuntu-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Italic.eot');
+    src: url('../fonts/Ubuntu-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Italic.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Italic.woff') format('woff'),
+        url('../fonts/Ubuntu-Italic.ttf') format('truetype'),
+        url('../fonts/Ubuntu-Italic.svg#Ubuntu-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Bold.eot');
+    src: url('../fonts/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Bold.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Bold.woff') format('woff'),
+        url('../fonts/Ubuntu-Bold.ttf') format('truetype'),
+        url('../fonts/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-MediumItalic.eot');
+    src: url('../fonts/Ubuntu-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Ubuntu-MediumItalic.woff') format('woff'),
+        url('../fonts/Ubuntu-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Ubuntu-MediumItalic.svg#Ubuntu-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-BoldItalic.eot');
+    src: url('../fonts/Ubuntu-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Ubuntu-BoldItalic.woff') format('woff'),
+        url('../fonts/Ubuntu-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Ubuntu-BoldItalic.svg#Ubuntu-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Light.eot');
+    src: url('../fonts/Ubuntu-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Light.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Light.woff') format('woff'),
+        url('../fonts/Ubuntu-Light.ttf') format('truetype'),
+        url('../fonts/Ubuntu-Light.svg#Ubuntu-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu-Regular.eot');
+    src: url('../fonts/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu-Regular.woff2') format('woff2'),
+        url('../fonts/Ubuntu-Regular.woff') format('woff'),
+        url('../fonts/Ubuntu-Regular.ttf') format('truetype'),
+        url('../fonts/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+/*Basic setting*/
+html {
+  font-size: 10px;
+  background-image: url(../i/bg.png);
+  font-family: 'PT Sans';
+}
+h3 {
+  font-weight: bold;
+}
+h5 {
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+}
+/*Header*/
+.header {
+  padding: 2rem;
+  height: 600px;
+  font-family: 'PT Sans';
+}
+.header-content {
+  padding-top: 150px;
+  display: inline-block;
+}
+.nav {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.ots {
+  padding-left: 4rem;
+}
+.bg1 {
+  background-image: url(../i/bg1.png);
+  background-repeat: no-repeat;
+  background-size: 1310px auto;
+  background-position: right 0px;
+}
+.phonepic {
+  padding-top: 50px;
+}
+.logo {
+  display: inline;
+  font-size: 30px;
+}
+.button-blue {
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  width: 114px;
+  display: block;
+  background-color: #0f65b2;
+  color: #ffffff;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-left: 4rem;
+}
+.button-blue:hover {
+  background-color: #213b66;
+  color: #9be8dd;
+}
+/*Advantages block*/
+.advantages-sbp {
+  height: 500px;
+}
+/*Development block*/
+.development-sbp {
+  background-color: #eff1f5;
+  background-image: url(../i/sh.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  text-align: center;
+}
+.dev {
+  margin-top: 80px;
+}
+.sh {
+  margin-top: 250px;
+}
+li {
+  list-style-type: none;
+  /* Убираем маркеры */
+}
+ul {
+  margin-left: 0;
+  /* Отступ слева в браузере IE и Opera */
+  padding-left: 0;
+  /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+.bg2 {
+  background-color: #eff1f5;
+}
+.adv {
+  margin: 0 auto;
+  margin: 3rem;
+}
+.sbp-advantages {
+  height: 450px;
+  padding: 3rem;
+}
+td {
+  padding: 5px;
+}
+th {
+  padding: 5px;
+}
+.sbp-people {
+  height: 500px;
+  padding: 5rem;
+}
+.k {
+  margin-top: 5rem;
+}
+.connect {
+  padding: 5rem;
+  height: 800px;
+}
+.architect {
+  height: 600px;
+  text-align: center;
+}
+.contacts {
+  padding-top: 5rem;
+}
+.cop {
+  margin: 0 auto;
+  font-size: 10px;
+  padding-bottom: 5px;
+}
